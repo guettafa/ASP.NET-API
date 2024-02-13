@@ -1,0 +1,6 @@
+@ASPAPI_HostAddress = http://localhost:5217
+
+GET {{ASPAPI_HostAddress}}/movie/
+Accept: application/json
+
+###
