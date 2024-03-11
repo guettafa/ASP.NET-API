@@ -2,12 +2,6 @@
 {
     public sealed class Movie
     {
-        private int         _id;
-        private string      _title;
-        private string      _description;
-        private string      _type;
-        private int         _stars;
-
         public required int    Id          { get; set; }
         public required string Title       { get; set; }
         public required string Description { get; set; }
